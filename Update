@@ -1,0 +1,15 @@
+local UserInputService = game:GetService("UserInputService")
+local Enum = Enum
+
+local lastInput = UserInputService:GetLastInputType()
+
+if lastInput == Enum.UserInputType.Touch then
+    print("Your Device Is Not Support!")
+    wait(1)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyptrue/Zyptrue/refs/heads/main/New%20Ui"))()
+
+elseif lastInput == Enum.UserInputType.MouseButton1 or lastInput == Enum.UserInputType.Keyboard then
+    print("You Device Is Support!")
+    wait(1)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyptrue/Release/refs/heads/main/New%20Interface"))()
+end
