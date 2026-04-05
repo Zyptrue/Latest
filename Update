@@ -6,7 +6,7 @@ local isPC = UserInputService.MouseEnabled and not UserInputService.TouchEnabled
 if isMobile then
     print("You User Mobile [Attached] [Mobile Support]")
     wait(1)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyptrue/Zyptrue/refs/heads/main/New%20Ui"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyptrue/Main-Scripts/refs/heads/main/Main%20Scripts%20%5BV1%5D"))()
 elseif isPC then
     print("You User PC [Attached] [PC Support]")
     wait(1)
